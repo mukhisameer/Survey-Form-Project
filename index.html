@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chess Class Feedback</title>
+    <link rel="stylesheet" link="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Chess Class Feedback Form</h1>
+    <p id="description">Thank you for taking the time to provide us with a feedback.</p>
+    <div>
+      <form id="survey-form">
+        <label id="name-label">Name <input id="name" type="text" required  placeholder="Enter your name"></label>
+        <label id="email-label">Email <input id="email" type="email" required  placeholder="Enter your email"></label>
+        <label id="number-label">Age (optional) <input id="number" type="number" placeholder="Age" min="13" max="120"></label>
+        <label>What is your chess rating?
+          <select id="dropdown">
+            <option>Select an option</option>
+            <option>0-500</option>
+            <option>500-1500</option>
+            <option>1500+</option>
+          </select>
+        </label>
+        <label>Would you recommend Chess class to a friend?</label>
+        <label><input type="radio" name="refer" class="inline" value="1">Definitely</label>
+        <label><input type="radio" name="refer" class="inline" value="1">Maybe</label>
+        <label><input type="radio" name="refer" class="inline" value="1">Not sure</label>
+        <label>What would you like to see improved?</label>
+        <label><input type="checkbox" value="1" class="inline"> Opening Classes</label>
+        <label><input type="checkbox" value="2" class="inline"> Middle-game Classes</label>
+        <label><input type="checkbox" value="3" class="inline"> End-game Classes</label>
+      <label>Any comments or suggestion?
+        <textarea name="comments" rows="3" cols="30" placeholder="Enter your comments here..."></textarea>
+      </label>
+      <input type="submit" value="Submit" id="submit"/>
+      </form>
+    </div>
+  </body>
+</html>
